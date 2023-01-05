@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=20000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "mix-tailwindcss": "^1.3.0",
+        "popper.js": "^1.12",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.20.1",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.5.17",
+        "vue-loader": "^15.9.5",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "chart.js": "^2.9.4",
+        "chartjs-plugin-datalabels": "^1.0.0",
+        "chartjs-plugin-doughnutlabel": "^2.0.3",
+        "laravel-echo": "^1.10.0",
+        "pusher-js": "^7.0.3",
+        "sweetalert2": "^10.16.6",
+        "tailwindcss": "^2.1.2",
+        "vue-chartjs": "^3.5.1",
+        "vue-js-modal": "^2.0.0-rc.6",
+        "vuedraggable": "^2.24.3"
+    }
+}

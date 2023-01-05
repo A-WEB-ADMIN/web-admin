@@ -1,0 +1,163 @@
+/*=========================================================
+=
+=  1.
+=
+===========================================================*/
+.c-templateWRAPPER {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: solid 1px gray;
+    margin-top: 30px;
+}
+/*=========================================================
+=
+=  2.
+=
+===========================================================*/
+.c-templateTopBar {
+    position: relative;
+    width:100%;
+    height:100px;
+    text-align: center;
+    padding: 30px;
+    background: gray;
+}
+
+.c-templateTopBar h1 {
+    color: white;
+}
+
+.c-templateTopBar h1 {
+    font-size: 40px;
+}
+/*=========================================================
+=
+=  3. 템플릿 자체
+=
+===========================================================*/
+.c-template {
+    position: relative;
+    width:100%;
+    height:100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.c-template > table {
+    min-width:900px;
+    border-collapse: collapse;
+}
+
+.c-template > table > caption.top {
+    border:solid 1px gray;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.c-template > table > caption.bottom{
+    caption-side: bottom;
+    padding: 10px;
+}
+
+.c-template > table > thead {
+    text-align: left;
+}
+
+.c-template > table > thead > tr > td {
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    padding: 10px;
+}
+
+.c-template > table > thead > tr > td > label {
+    position: relative;
+    display: inline-block;
+    width:10px;
+}
+
+.c-template > table > thead > tr > td > span {
+    position: relative;
+    display: inline-block;
+    width:10px;
+}
+
+.c-template > table > tbody {
+    background: #cccccc;
+}
+
+.c-template > table > tbody > tr > th {
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    padding: 10px;
+}
+
+
+.c-template > table > tfoot {
+    text-align: center;
+}
+
+.c-template > table > tfoot > tr > th {
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    padding: 10px;
+    background: #eeeeee;
+}
+
+.c-template > table > tfoot > tr > td {
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    padding: 10px;
+}
+
+/*=========================================================
+=
+=  4.
+=
+===========================================================*/
+.c-templateBottomBar {
+    position: relative;
+    width:100%;
+    border-top: solid 1px gray;
+    text-align: center;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

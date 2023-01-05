@@ -1,0 +1,24 @@
+
+
+
+
+.graph_box{ padding:20px; }
+.graph_box > ul{  }
+.graph_box > ul:after{ content:"";display: block;clear:both; }
+.graph_box > ul li{ border:1px solid #aaa; border-radius:10px; float:left;width:49%;  margin-top:2%; padding:10px;}
+.graph_box > ul li:nth-child(odd){ margin-right:0; }
+.graph_box > ul li:nth-child(even){ float:right; }
+.graph_box > ul li h3{ position: relative;top:-20px; }
+.graph_box > ul li h3 span{ font-size:20px;background:#fff;display: inline-block;padding:0 10px; }
+.graph_box .img{ text-align:center; min-height:310px; }
+.graph_box .img img{ max-width:100%; }
+
+.graph_box .add_info{ margin-top:20px;padding-bottom:15px; border:1px solid #aaa; }
+.graph_box .add_info h4{ font-size:18px; padding:15px; border-bottom:1px solid #ddd;}
+.graph_box .add_info ul{  }
+.graph_box .add_info ul:after{ content:"";display: block;clear:both; }
+.graph_box .add_info ul li{ float:left; width:50%;text-align:center; padding:0 20px;}
+.graph_box .add_info ul li strong{ display: block;font-size:16px; padding:15px 0 5px;}
+.graph_box .add_info ul li .img{}
+.graph_box .add_info ul li .img img{ max-width:100%; }
+

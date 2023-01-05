@@ -1,0 +1,148 @@
+
+/*=============================================================
+=
+=   1. 탭메뉴
+=
+==============================================================*/
+.c-tabmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-tabmenu > nav > ul li {
+    display: inline-block;
+
+}
+
+.c-tabmenu > nav > ul li a {
+    display: inline-block;
+    padding:5px 15px 5px 15px;
+    border: solid 1px #BFBFBF;
+    border-radius: 5px 5px 0 0;
+    font-size:17px;
+}
+
+.c-tabmenu > nav > ul li a:hover {
+    cursor: pointer;
+    background: #4A8AE2;
+}
+
+.c-tabmenu > nav > ul li .active {
+    background: #183F74;
+    color:white;
+}
+
+
+/*=============================================================
+=
+=   2. 탭메뉴 바로 밑에 테이블
+=
+==============================================================*/
+.c-table__undertab {
+
+}
+
+.c-table__undertab th {
+    border:solid 1px gray;
+    padding:20px 10px 10px 10px;
+    background: #F7F7F7;
+
+}
+
+.c-table__undertab td {
+    border: solid 1px gray;
+    padding:10px;
+}
+/*===========================================================
+=
+=  1. 자산메뉴 -> 자산목록 탭박스 [승호추가]
+=
+============================================================*/
+.c-search {
+    position:relative;
+    width:100%;
+    padding-bottom: 15px;
+}
+
+.c-search__left {
+    width:70%;
+    float:left;
+}
+
+.c-search__middle{
+    width:10%;
+    float:left;
+    text-align: right;
+}
+
+.c-search__middle a i{
+    font-size: 30px;
+}
+
+.c-search__right {
+    width:20%;
+    float:right;
+    text-align: right;
+}
+/*===========================================================
+=
+= 2. 자산메뉴 -> 자산 추가/삭제/수정
+=
+============================================================*/
+/* 상단 박스 */
+.c-table__addremove {
+    position:relative;
+    width:100%;
+}
+
+.c-table__addremove--top {
+    width:100%;
+    height:70px;
+    border: solid 1px #E7E7E7;
+    background: #F5F5F5;
+    text-align: right;
+    padding: 20px 20px 0 0;
+    margin-bottom: 30px;
+}
+
+.c-table__addremove--top button {
+    background: #337AB7;
+    padding:10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+.c-table__addremove--bottom {
+    width:100%;
+}
+
+/* 테이블 */
+.c-table__addremove--bottom table {
+
+}
+
+.c-table__addremove--bottom table thead tr th {
+    border: solid 1px #E7E7E7;
+    padding:15px;
+    background: #FFFFFF;
+}
+
+.c-table__addremove--bottom table tbody tr td {
+    border: solid 1px #E7E7E7;
+    padding:10px;
+}
+
+.c-table__addremove--bottom table tbody tr td button {
+    background: #DC534B;
+    padding:10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+.c-table__addremove--bottom table tbody tr td input {
+    width: 100%;
+}

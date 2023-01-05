@@ -1,0 +1,122 @@
+/* 승호 커스텀 input file CSS */
+#myform {
+    position: relative;
+    display: inline-block;
+}
+
+.i-UploadButton {
+    position: relative;
+    display: inline-block;
+    padding: 8.5px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.i-UploadButton:hover {
+    background: #347AB8;
+    color:white;
+}
+/*======================================================
+=
+=  1. [박스] 증적이 등록되지 않았습니다
+=
+=======================================================*/
+.c-notUploadedFileBox{ text-align:center;margin-top:10px;}
+.c-notUploadedFileBox strong{  background:#eee; padding:150px 0;font-size:25px;display: block;line-height:34px; }
+/*======================================================
+=
+=  2. [박스] 파일명. 확장자 보이는
+=
+=======================================================*/
+.c-filenameBox{
+    position: relative;
+    width: 100%;
+    height:70px;
+    text-align: center;
+    background: #EEEEEE;
+}
+
+.c-filenameBox span {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+/*
+.c-box.active {
+    display: block;
+}
+*/
+/*------------------------------
+- 중앙 정렬
+-------------------------------*/
+.c-filenameBox__m {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    width:300px;
+    height:70px;
+    background: green;
+    text-align: center;
+}
+
+.c-filenameBox__m span {
+    font-size: 30px;
+    line-height: 60px;
+}
+/*------------------------------
+- 오른쪽 정렬
+-------------------------------*/
+.c-filenameBox__r {
+    position: absolute;
+    right:0;
+    padding:20px;
+}
+
+.c-filenameBox__r label {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.c-filenameBox__r select {
+
+}
+/*======================================================
+=
+=  3. [박스] 미리보기 노출
+=
+=======================================================*/
+.c-filePreview{ text-align:center;margin-top:10px;}
+.c-filePreview strong{  background:#eee; padding:150px 0;font-size:25px;display: block;line-height:34px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

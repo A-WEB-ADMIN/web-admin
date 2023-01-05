@@ -1,0 +1,33 @@
+/*=============================================================
+=
+=   1. 운영명세서 테이블
+=
+==============================================================*/
+.c-table__common {
+
+}
+
+.c-table__common > thead {
+    padding: 20px;
+}
+
+.c-table__common > thead > tr > th {
+    border:solid 1px gray;
+    padding:20px 10px 10px 10px;
+    background: #F7F7F7;
+
+}
+
+.c-table__common > tbody {
+
+}
+
+.c-table__common > tbody > tr {
+    padding: 20px;
+}
+
+.c-table__common > tbody > tr > td {
+    border: solid 1px gray;
+    padding:0px;
+}
+
